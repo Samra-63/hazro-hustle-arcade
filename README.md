@@ -7,21 +7,21 @@ An AI-driven, fast-paced 2D arcade game inspired by the vibrant local street cul
 
 ## 🎮 Gameplay Overview
 
-* <p align="center">
-  <br>
-  <a href="https://youtu.be/0kRNCILc5JA" target="_blank">
-    <img src="https://github.com/Samra-63/hazro-hustle-arcade/blob/main/src/assets/images/thumbnail.png?raw=true" alt="Hazro Hustle Gameplay Video" width="100%">
-  </a>
-  <br>
-  <i>(Click on the image above to watch the gameplay video)</i>
-  <br>
-</p>
-
 * **The Mission:** Guide Chacha's cart safely through the busy bazaar while avoiding oncoming traffic like local buses and rickshaws.
 * **The Cargo:** Collect Teapots (*Chaye is life!*) and Hukkas to increase your Cargo Score.
 * **The Vibes:** Experience a dynamic visual shift with shifting backgrounds that transition seamlessly from **Morning to Night** as your score increases.
 * **The Audio:** Immerse yourself in authentic local beats designed to keep the hustle going!
 * **Game Over:** Dynamic tracking triggers the "Chacha Ruk Gaye!" screen showing your final score with an instant replay option.
+
+* <p align="center">
+  <br>
+  <a href="https://youtu.be/0kRNCILc5JA" target="_blank">
+    <img src="https://github.com/Samra-63/hazro-hustle-arcade/blob/main/src/assets/images/thumbnail.png?raw=true" alt="Hazro Hustle Gameplay Video" width="75%">
+  </a>
+  <br>
+  <i>(Click on the image above to watch the gameplay video)</i>
+  <br>
+</p>
 
 
 ## 🛠️ Tech Stack & Architecture
