@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# ☕ Hazro Hustle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-driven, fast-paced 2D arcade game inspired by the vibrant local street culture of Hazro, Pakistan. Help Chacha navigate his cargo *rehri* (cart) through bustling traffic, dodge local buses, and collect teapots to rack up the ultimate score!
 
-## Available Scripts
+🚀 **[Play Hazro Hustle Live Here](https://hazro-hustle-460391315721.us-central1.run.app/)**
 
-In the project directory, you can run:
 
-### `npm start`
+## 🎮 Gameplay Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* <p align="center">
+  <br>
+  <a href="https://youtu.be/0kRNCILc5JA" target="_blank">
+    <img src="https://github.com/Samra-63/hazro-hustle-arcade/blob/main/src/assets/images/thumbnail.png?raw=true" alt="Hazro Hustle Gameplay Video" width="100%">
+  </a>
+  <br>
+  <i>(Click on the image above to watch the gameplay video)</i>
+  <br>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **The Mission:** Guide Chacha's cart safely through the busy bazaar while avoiding oncoming traffic like local buses and rickshaws.
+* **The Cargo:** Collect Teapots (*Chaye is life!*) and Hukkas to increase your Cargo Score.
+* **The Vibes:** Experience a dynamic visual shift with shifting backgrounds that transition seamlessly from **Morning to Night** as your score increases.
+* **The Audio:** Immerse yourself in authentic local beats designed to keep the hustle going!
+* **Game Over:** Dynamic tracking triggers the "Chacha Ruk Gaye!" screen showing your final score with an instant replay option.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack & Architecture
 
-### `npm run build`
+This project was developed as a cutting-edge experiment in rapid prototyping, leveraging a full Generative AI pipeline for asset creation and code generation, combined with robust cloud infrastructure for global scalability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer | Technology / Tool | Description |
+| :--- | :--- | :--- |
+| **Logic & Frontend** | **React.js** + **Google AI Studio** | Core game loops, rendering mechanics, and state management prompted and coded via advanced LLM orchestration. |
+| **Visual Assets** | **Gemini** | Every background layer, UI frame, rickshaw sprite, and asset generated with a distinct "Hazro-style" cultural aesthetic. |
+| **Audio & SFX** | **Lyria3 Model** | High-fidelity background music tracks and responsive gameplay sound effects. |
+| **Containerization**| **Docker** | Standardized environment configuration ensuring seamless reproducibility. |
+| **Cloud Hosting** | **Google Cloud Run** | Fully containerized, serverless global deployment handling scaling and request routing automatically. |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Local Development
 
-### `npm run eject`
+To get a local copy of Hazro Hustle up and running on your machine, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+* Node.js (v18 or higher recommended)
+* npm or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Samra-63/hazro-hustle-arcade.git](https://github.com/Samra-63/hazro-hustle-arcade.git)
