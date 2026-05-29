@@ -1,0 +1,118 @@
+.game-viewport { 
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  overflow: hidden; 
+  background: #000; 
+}
+
+.bg-layers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.bg-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out; 
+  background-position: inherit;
+}
+
+.bg-layer.active {
+  opacity: 1;
+}
+
+.rehri-player.flipped {
+  position: absolute;
+  width: 210px; 
+  z-index: 10;
+  transform: scaleX(-1) translateY(-50%);
+  transition: top 0.2s ease;
+}
+
+.game-obj { 
+  position: absolute; 
+  z-index: 5; 
+  transform: translateY(-50%); 
+}
+
+.teapot, .hukka { 
+  width: 115px; 
+  filter: drop-shadow(0 0 15px gold);
+  animation: floatCollectibles 1s infinite alternate;
+}
+
+.hukka { 
+  width: 98px;
+  filter: drop-shadow(0 0 15px #8e44ad); 
+}
+
+@keyframes floatCollectibles {
+  from { transform: translateY(-50%) scale(1); }
+  to { transform: translateY(-50%) scale(1.15); }
+}
+
+.bus { width: 350px; }
+.rickshaw { width: 250px; }
+
+.game-over-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.game-over-box {
+  background: #f1c40f;
+  padding: 40px 60px;
+  border: 5px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(241, 196, 15, 0.5);
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.game-over-box h1 { font-size: 2.5rem; color: #c0392b; margin-bottom: 10px; }
+.game-over-box p { font-size: 1.5rem; font-weight: bold; margin-bottom: 20px; }
+.game-over-box button {
+  padding: 15px 40px; background: #2ecc71; border: 3px solid #000;
+  font-weight: bold; font-size: 1.1rem; cursor: pointer; border-radius: 10px;
+}
+
+.hud { position: absolute; top: 25px; left: 25px; z-index: 100; background: gold; padding: 12px 35px; border-radius: 50px; font-weight: 900; border: 4px solid #000; font-size: 1.4rem; }
+
+.controls-container {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 200;
+}
+
+.nav-btn-large {
+  width: 95px;
+  height: 95px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 3px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 2.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
