@@ -2,10 +2,10 @@
 
 An AI-driven, fast-paced 2D arcade game inspired by the vibrant local street culture of Hazro, Pakistan. Help Chacha navigate his cargo *rehri* (cart) through bustling traffic, dodge local buses, and collect teapots to rack up the ultimate score!
 
-🚀 **[Play Hazro Hustle Live Here](https://hazro-hustle-460391315721.us-central1.run.app/)**
+ **[Play Hazro Hustle Live Here](https://hazro-hustle-460391315721.us-central1.run.app/)☕🛺**
 
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 * **The Mission:** Guide Chacha's cart safely through the busy bazaar while avoiding oncoming traffic like local buses and rickshaws.
 * **The Cargo:** Collect Teapots (*Chaye is life!*) and Hukkas to increase your Cargo Score.
@@ -13,7 +13,7 @@ An AI-driven, fast-paced 2D arcade game inspired by the vibrant local street cul
 * **The Audio:** Immerse yourself in authentic local beats designed to keep the hustle going!
 * **Game Over:** Dynamic tracking triggers the "Chacha Ruk Gaye!" screen showing your final score with an instant replay option.
 
-* <p align="center">
+  <p align="center">
   <br>
   <a href="https://youtu.be/0kRNCILc5JA" target="_blank">
     <img src="https://github.com/Samra-63/hazro-hustle-arcade/blob/main/src/assets/images/thumbnail.png?raw=true" alt="Hazro Hustle Gameplay Video" width="75%">
@@ -24,7 +24,7 @@ An AI-driven, fast-paced 2D arcade game inspired by the vibrant local street cul
 </p>
 
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 This project was developed as a cutting-edge experiment in rapid prototyping, leveraging a full Generative AI pipeline for asset creation and code generation, combined with robust cloud infrastructure for global scalability.
 
@@ -37,7 +37,7 @@ This project was developed as a cutting-edge experiment in rapid prototyping, le
 | **Cloud Hosting** | **Google Cloud Run** | Fully containerized, serverless global deployment handling scaling and request routing automatically. |
 
 
-## 🚀 Local Development
+## Local Development
 
 To get a local copy of Hazro Hustle up and running on your machine, follow these steps:
 
